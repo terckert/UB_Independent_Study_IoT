@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Independent Study Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .my-lessons {
+            width: 95%;
+        }
+        .my-lessons-row {
+            display: flex;
+        }
+        .my-lessons-link {
+            width: 15%;
+            display: flex;
+            justify-content: center;
+        }
+        .my-projects-link {
+            width: 20%;
+            display: flex;
+            justify-content: center;
+        }
+        .my-github-link {
+            width: 15%;
+            display: flex;
+            justify-content: center;
+        }
+        .my-projects-description {
+            align-self: center;
+            width: 65%;
+            display: flex;
+            justify-content: left;
+        }
+        .my-lessons-description {
+            align-self: center;
+            width: 85%;
+            display: flex;
+            justify-content: left;
+        }
+        .names {
+            display: flex;
+            justify-content: center;
+        }
+        .names-container {
+            width: 30%;
+            display: flex;
+            justify-content: center;
+        }
+        .names-our-role {
+            width: 35%;
+        }
+        .names-our-names {
+            padding-left: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+        <center>
+            <h1>Independent Study: Networking Embedded Devices</h1>
+        </center>
+        <div class="names">
+            <div class="names-container">
+                <div width="names-column names-our-role">
+                    <div><b>Student:</b></div> 
+                    <div><b>Professor:</b></div> 
+                </div>
+                <div class="names-column names-our-names">
+                    <div>Timothy Erckert</div>
+                    <div>Dr. Kris Schindler</div>
+                </div>
+            </div>
+        </div>
+        <h3>Weekly Turn-Ins</h3>
+        <table class="my-lessons">
+            <tr class="my-lessons-row">
+                <th class="my-lessons-link">Link</th>
+                <th class="my-lessons-description">Description</th>
+            </tr>
+            <tr class="my-lessons-row">
+                <td class="my-lessons-link"><a href="./weeks/week-1.html">Week One</a></td>
+                <td class="my-lessons-description">This week consisted of signing up for the class on Bluetooth, ordering the parts necessary to begin the instruction, and coming up with a plan for the following weeks. This includes the intial bill of materials for the study.</td>
+            </tr>
+            <tr class="my-lessons-row">
+                <td class="my-lessons-link"><a href="./weeks/week-2.html">Week Two</a></td>
+                <td class="my-lessons-description">Learning about the history of bluetooth standard. This also includes the technical specs for the slave bluetooth module that I will be using for this study.</td>
+            </tr>            
+            <tr class="my-lessons-row">
+                <td class="my-lessons-link"><a href="./weeks/week-3.html">Week Three</a></td>
+                <td class="my-lessons-description">Information about UART communication to ready ourselves for transmitted to and receiving from our bluetooth module.</td>
+            </tr>            
+            <tr class="my-lessons-row">
+                <td class="my-lessons-link"><a href="./weeks/week-4.html">Week Four</a></td>
+                <td class="my-lessons-description">A progress update for project 1. Go over the successes and failures to this to point in the study.</td>
+            </tr>            
+            <tr class="my-lessons-row">
+                <td class="my-lessons-link"><a href="./weeks/week-5.html">Week Five</a></td>
+                <td class="my-lessons-description">Rewrote majority of code using HAL library. Allows more portability. Started creating LED grids for project 1.</td>
+            </tr>            
+            <tr class="my-lessons-row">
+                <td class="my-lessons-link"><a href="./weeks/week-6.html">Week Six</a></td>
+                <td class="my-lessons-description">Another rewrite into mbedOS and C++. Created a matrix LED and initial programming.</td>
+            </tr>
+            <tr class="my-lessons-row">
+                <td class="my-lessons-link"><a href="./weeks/week-10.html">Week Ten</a></td>
+                <td class="my-lessons-description">I completed my python-GUI and programmed the game logic.</td>
+            </tr>            
+            <!-- Additional weeks copy/paste -->
+            <!-- <tr class="my-lessons-row">
+                <td class="my-lessons-link"><a href="">Week </a></td>
+                <td class="my-lessons-description"></td>
+            </tr> -->
+        </table>
+        <h3>Projects</h3>
+        <table class="my-lessons">
+            <tr class="my-lessons-row">
+                <th class="my-projects-link">Project Overview</th>
+                <th class="my-github-link">Github Link</th>
+                <th class="my-projects-description">Project Description</th>
+            </tr>
+            <tr class="my-lessons-row">
+                <td class="my-projects-link"><a href="./projects/project-1-bluetooth-driver.html">Baremetal Bluetooth Drivers</a></td>
+                <td class="my-github-link"><a href="https://github.com/terckert/baremetal-bluetooth">Github</a></td>
+                <td class="my-projects-description"></td>
+            </tr>
+            <!-- <tr class="my-lessons-row">
+                <td class="my-projects-link"><a href=""></a></td>
+                <td class="my-github-link"><a href=""></a></td>
+                <td class="my-projects-description"></td>
+            </tr> -->
+        </table>
+        <cite>Images and some information provided in weekly turn-ins are from the presentations found at study.embeddedexpert.io. It is their original work and all work belongs to their respective copyright holders.</cite>
+    </div>
+</body>
+
+</html>
